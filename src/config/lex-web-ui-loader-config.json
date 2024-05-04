@@ -1,0 +1,71 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:f8b0efd6-68df-431b-b02a-9f13980832dd",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1"
+  },
+  "connect": {
+    "contactFlowId" : "",
+    "instanceId" : "",
+    "apiGatewayEndpoint" : "",
+    "promptForNameMessage": "Before starting a live chat, please tell me your name?",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": 60
+  },
+  "lex": {
+    "botName": "Teaching Assistant",
+    "initialText": "",
+    "initialSpeechInstruction": "",
+    "initialUtterance": "",
+    "region": "us-east-1",
+    "retryOnLexPostTextTimeout": false,
+    "retryCountPostTextTimeout": 1,
+    "v2BotId": "NN7I3EL4XQ",
+    "v2BotAliasId": "EUBKJONFZ5",
+    "v2BotLocaleId": "",
+    "allowStreamingResponses": false,
+    "streamingWebSocketEndpoint": "",
+    "streamingDynamoDbTable": ""
+  },
+  "ui": {
+    "parentOrigin": "http://localhost:8000",
+    "toolbarTitle": "Teaching Assistant",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "That answered my question! Thank you.",
+    "negativeFeedbackIntent": "That did not answer my question.",
+    "helpIntent": "Help",
+    "helpContent": {},
+    "enableLogin": false,
+    "enableSFX": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false,
+    "saveHistory": false,
+    "enableLiveChat": false,
+    "toolbarStartLiveChatLabel": "Start Live Chat",
+    "toolbarEndLiveChatLabel": "End Live Chat",
+    "toolbarStartLiveChatIcon": "people_alt",
+    "toolbarEndLiveChatIcon": "call_end",
+    "pageTitle": "CS 1337 Teaching Assistant"
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
