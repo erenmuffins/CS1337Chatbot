@@ -24,3 +24,9 @@ Bubble sort
 How does linear sort work?
 Explain multi dimensional arrays.
 How do I prepare for exam1 ?
+
+\n
+The Files that were changed for our project purposes were under src/config/lex-web-ui-loader-config.json
+
+\n
+The other files were under src/website/login.php , custom-chatbot-style.css , /phptools/* , ignore /obs
